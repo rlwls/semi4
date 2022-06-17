@@ -1,0 +1,25 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Product title here</title>
+</head>
+<body>
+
+
+<div class="container-fluid">
+  <div class="row content">
+   <div th:insert="${left} ? ${left} : left"> </div>
+   
+   
+   
+    <div class="col-sm-9">
+   
+	<div><h1> Product Center</h1> </div>
+	</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

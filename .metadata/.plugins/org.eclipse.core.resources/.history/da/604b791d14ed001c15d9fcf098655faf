@@ -1,0 +1,7 @@
+package com.semi4.biz;
+
+import com.semi4.frame.Biz;
+
+public class ProductBiz implements Biz<K, V> {
+
+}

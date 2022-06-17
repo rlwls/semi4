@@ -1,0 +1,5 @@
+package com.semi4.frame;
+
+public interface Biz {
+
+}

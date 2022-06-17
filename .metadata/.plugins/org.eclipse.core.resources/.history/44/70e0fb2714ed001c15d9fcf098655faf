@@ -1,0 +1,39 @@
+package com.semi4.biz;
+
+import java.util.List;
+
+import com.semi4.frame.Biz;
+
+public class ProductBiz implements Biz<K, V> {
+
+	@Override
+	public void register(V v) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modify(V v) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(K k) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public V get(K k) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<V> get() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

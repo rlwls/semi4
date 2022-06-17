@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product title here</title>
+</head>
+<body>
+
+<h1> Product Center</h1>
+
+
+
+
+<div class="container-fluid">
+  <div class="row content">
+   <div th:insert="${left} ? ${left} : left"> </div>
+    <div class="col-sm-9">
+      <h4><small>회원가입 </small></h4>
+		<div class="form-group">
+			<label for="usr">Name:</label> <input type="text"
+				class="form-control" id="usr">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label> <input type="password"
+				class="form-control" id="pwd">
+		</div>
+	</div>
+  </div>
+</div>
+
+
+<div><h1> Product Center</h1> </div>
+</body>
+</html>
