@@ -25,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link" href="/cust">회원정보</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">제품목록</a></li>
                         <li class="nav-item"><a class="nav-link" href="/order">거래내역</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Search 테스트로 코드수정 </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Search 코드수정 </a></li>
                         <input type="search" id="search" name="search"/>
                     </ul>
                     <form class="d-flex" action="/cart">
