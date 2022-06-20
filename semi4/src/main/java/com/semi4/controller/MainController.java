@@ -10,7 +10,8 @@ public class MainController {
 	@RequestMapping("/")
 	public String main(Model m) {
 		
-		//
+		//System.out.println();
+
 		return "main";
 	}
 }
