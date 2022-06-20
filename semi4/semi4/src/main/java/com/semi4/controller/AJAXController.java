@@ -11,7 +11,8 @@ public class AJAXController {
 	
 	@RequestMapping("checkid")
 	public String checkid(String id) {
-			
+		
+		
 		String result = "";
 		CustVO c = null;
 		System.out.println("OK");
