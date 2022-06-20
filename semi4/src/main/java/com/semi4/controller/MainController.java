@@ -10,7 +10,7 @@ public class MainController {
 	@RequestMapping("/")
 	public String main(Model m) {
 		
-		
+		//
 		return "main";
 	}
 }
