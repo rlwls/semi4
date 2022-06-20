@@ -14,7 +14,7 @@ public class AJAXController {
 			
 		String result = "";
 		CustVO c = null;
-	
+		System.out.println("OK");
 		return result;
 	}
 	
